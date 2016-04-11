@@ -19,7 +19,7 @@ end
 
 puts "Enter the text you would like to encrypt."
 string = gets.chomp
-puts "Enter the key to your code."
+puts "Enter the key (an integer) to your code."
 key = gets.chomp
 cipher(string, key)
 

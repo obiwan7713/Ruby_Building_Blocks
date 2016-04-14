@@ -22,6 +22,3 @@ string = gets.chomp
 puts "Enter the key (an integer) to your code."
 key = gets.chomp
 cipher(string, key)
-
-
-
